@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative 'lib/rebuilding/rails/version'
+require_relative 'lib/rebuilding_rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'rebuilding-rails'
-  spec.version = Rebuilding::Rails::VERSION
+  spec.name = 'rebuilding_rails'
+  spec.version = RebuildingRails::VERSION
   spec.authors = ['kalebhenrique']
   spec.email = ['kalebhenriquebr@gmail.com']
 
