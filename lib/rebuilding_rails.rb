@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require_relative 'rebuilding_rails/version'
-require 'rulers/array'
 
 module RebuildingRails
   class Error < StandardError; end
