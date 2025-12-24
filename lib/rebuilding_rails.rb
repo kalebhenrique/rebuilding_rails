@@ -1,8 +1,14 @@
 # frozen_string_literal: true
 
-require_relative "rebuilding_rails/version"
+require_relative 'rebuilding_rails/version'
 
 module RebuildingRails
   class Error < StandardError; end
-  # Your code goes here...
+
+  class Application
+    def call(_env)
+      [200, { 'content-type' => 'text/html' },
+       ['Hello from Rebuilding Rails']]
+    end
+  end
 end
