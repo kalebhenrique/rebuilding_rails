@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'rebuilding_rails/version'
+require 'rebuilding_rails/routing'
 
 module RebuildingRails
   class Error < StandardError; end
